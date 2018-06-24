@@ -1,21 +1,73 @@
+@import url("https://use.fontawesome.com/37471687aa.js");
 body {
   background-color: #333;
   font-family: sans-serif;
   font-size: 10px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .container {
   margin: 0 auto;
-  width: 420px;
+  width: 26.5%;
+  background-color: #6C6C6C;
 }
 
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 420px;
+  width: 26.5%;
+  background-color: #000;
+}
+
+.fa-chevron-left.fa-inverse.fa-2x {
+  float: left;
+  padding-top: 2%;
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  box-sizing: border-box;
+  padding: 12.8% 0 0 0;
+}
+
+.location {
+  box-sizing: border-box;
+}
+
+.content {
+  box-sizing: border-box;
+  background-color: #aaa;
+  margin-bottom: 0.5%;
+  margin: solid #B1B1B1;
+  padding: 4% 0 4% 0;
+}
+
+.content:hover {
+  opacity: 5;
+  background-color: gray;
+}
+
+.fa-chevron-right {
+  float: right;
+  padding: 0 4% 4% 0;
+  position: relative;
+  margin-top: -12%;
+}
+
+h1, h3 {
+  padding-left: 4%;
+  line-height: 1.4;
+}
+
+.content h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.content h3 {
+  font-size: 1.3em;
+  font-weight: 548;
 }
