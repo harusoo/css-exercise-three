@@ -38,11 +38,13 @@ nav {
 }
 
 .content {
+  display: inline-block;
   box-sizing: border-box;
   background-color: #aaa;
   margin-bottom: 0.5%;
   margin: solid #B1B1B1;
   padding: 4% 0 4% 0;
+  width: 100%;
 }
 
 .content:hover {
@@ -51,10 +53,12 @@ nav {
 }
 
 .fa-chevron-right {
-  float: right;
+  display: inline-block;
   padding: 0 4% 4% 0;
   position: relative;
   margin-top: -12%;
+  width: 10%;
+  float: right;
 }
 
 h1, h3 {
